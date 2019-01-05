@@ -1,0 +1,25 @@
+Express is a minimal and flexible Node.js application framework that provides a robust set of features,
+to develop web and mobile centric applications.
+
+Features -- 
+-> Allows to set up middlewares to respond to HTTP Requests.
+-> Defines a routing table which is used to perform diffrent actions based on HTTP 
+   Method and URL
+-> Allows to dynamically render HTML Pages based on passing arguments to template
+
+
+** Installing Express -->
+
+$ npm install express --save
+// Saves the installation locally in the node_modules directory and creates a directory inside node_modules.
+
+Also install the following modules as per requirement
+
+$ npm install body-parser --save
+body-parser -- Middleware to handle JSON, RAW, Text and url encoded form data
+
+$ npm install cookie-parser --save
+cookie-parser -- Parse cookie header and populate req.cookies with ab object keyed by cookie names
+
+$ npm install multer --save
+multer -- Middleware to handle multipart/form-data

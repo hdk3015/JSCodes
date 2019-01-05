@@ -1,0 +1,52 @@
+<!-- Author -- Hardik
+Purpose --- JS Events
+
+-> JS is meant to add interactivity to your pages.
+   JS does this using a mechanism using events.
+   Events are a part of the Document object model Level3 and every HTML 
+   element that contains a set of events that can trigger JS Code
+
+    An event is an action occurence recognized by the software.
+    It can be triggered by the user or the system.
+   */
+
+/* Event Handler 
+-> On occurence of an event the code written in event handler handles the related task
+*/
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Event Handling</title>
+    <script type = "text/javascript">
+    function sayHello(){
+        document.write("Hello world")
+    }
+    function over(){
+        document.write("Mouse over")
+    }
+    function out(){
+        document.write("Mouse Out")
+    }
+    </script>   
+</head>
+<body>
+    <p>Click button to fire onclick</p>
+    <!-- onClick Event -->
+    <input type = "button" onclick= "sayHello()" value = "Say Hello" />
+    <br>
+    <br>
+    <p>Bring your mouse inside The division to see the result</p>
+    <div class = "div" onmouseover="over()" onmouseout="out()"></div>
+    <h2>This is the inside of the division</h2>
+  </div>
+    </body>
+</html>
+
+
+<!-- Refrences for type of events  
+    https://www.tutorialspoint.com/es6/es6_events.htm
+ -->

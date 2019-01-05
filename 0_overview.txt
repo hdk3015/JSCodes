@@ -1,0 +1,76 @@
+ECMAScript is a scripting language specification standardized by ECMAScript International.
+It is used by applications to enable client-side scripting.
+
+Javscript -- Developed by Brandan Eich, a developer aat NEtscape corporation,
+1995.
+
+ECHMA Script6's Implementations discussed here covers the following New features ::
+
+-> Support for constants.
+-> Block Scope
+-> Arrow function
+-> Extended Parameter handling.
+->Template Literals
+->Extended Literals
+->Enhanced Object Properties
+->De-structuring Assignments
+->Modules
+->Classes
+->Iterators
+->Generators
+->Collections
+->New Built in methods for various Classes
+->Promises 
+
+
+Prerequisites : : 
+
+
+1. Node.Javscript
+   download & Install--> https://nodejs.org/en/download
+
+2. Any Code editor /*Recommended*/ - Visual Studio Code
+
+   download & Install--> https://code.visualstudio.com
+
+ 
+Syntax : :
+
+A Javscript program can be composed of -->
+
+*Variables(Named memory block that can store values for the program)
+
+*Literals(Represents constant/fixed Values).
+
+*Operators(Symbols that define how the operands willbe processed).
+
+*Keywords(Words that have a special meaning in the contex of a language).
+
+The following table lists some keywords in JavaScript. 
+Some commonly used keywords are listed in the following table.
+
+break 	as 	any 	Switch
+case 	if 	throw 	Else
+var 	number 	string 	Get
+module 	type 	instanceof 	Typeof
+finally 	for 	enum 	Export
+while 	void 	this 	New
+null 	super 	Catch 	let
+static 	return 	True 	False
+
+*Module - Represents code block that can be reused across different
+programs/scripts.
+
+*Comments 
+*Identifiers -
+
+Set of valid Identifiers .. 
+firstName
+first_name
+num1
+$result
+
+*JS is case-sensitive
+
+*semicolon is optional
+
